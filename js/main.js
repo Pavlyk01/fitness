@@ -2,7 +2,7 @@ $(function() {
 
     $('.slider__list').slick({
         centerMode: true,
-        centerPadding: '200px',
+        centerPadding: '210px',
         slidesToShow: 3,
         centerMode: true,
         arrows: false,
@@ -22,6 +22,15 @@ $(function() {
                     arrows: false,
                     centerMode: true,
                     centerPadding: '0px',
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 475,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
                     slidesToShow: 1
                 }
             },
